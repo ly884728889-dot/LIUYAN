@@ -1,0 +1,20 @@
+{
+  "weights": {
+    "full_multiscale": 0.6,
+    "selective_refine": 0.2,
+    "direction_gate": 0.2
+  },
+  "threshold": 0.47,
+  "scales": [
+    1.0,
+    1.25,
+    1.5
+  ],
+  "tta": "four flips",
+  "checkpoint_sha256": {
+    "full": "184c7f1de0c06d6d0fdfc28fb402676faa9cb07cb5a79342a23cb4e0ef447635",
+    "selective_refine": "f64684d8a27da16bb2892cebfa0f8ce3067b8246a31fef4222573e5fa7f1868c",
+    "direction_gate": "5f1cd5524a8f105cc27ada4bbda03c0e58ddc550e82a9c673819b0784711b34b"
+  },
+  "val_macro_dice": 0.7903864425598753
+}

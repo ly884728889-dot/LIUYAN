@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+weights/
+data/
+outputs/
+*.pt
+*.pth
+*.npy
+*.npz
+*.zip
+.env

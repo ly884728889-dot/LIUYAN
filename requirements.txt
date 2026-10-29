@@ -1,0 +1,5 @@
+torch==2.8.0
+torchvision==0.23.0
+segmentation-models-pytorch==0.5.0
+numpy==2.2.5
+Pillow==11.1.0

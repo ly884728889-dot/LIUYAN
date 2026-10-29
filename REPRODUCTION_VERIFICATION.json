@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "png_count": 300,
+  "byte_identical_pngs": 300,
+  "mismatches": [],
+  "description": "Standalone public code reproduces every submitted Benchmark PNG byte-for-byte; ZIP timestamps may differ."
+}
