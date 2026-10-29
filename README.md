@@ -27,8 +27,15 @@ The measured machine used an RTX 4060 8 GB, FP32.
 
 Place full.pt, selective_refine.pt, direction_gate.pt in `weights/`.
 Their exact SHA256 hashes are in `configs/final.json`; inference verifies them.
-Public download publication is tracked separately and must be verified before
-claiming a downloadable release. No credentials or dataset images are included.
+Public model downloads: https://github.com/ly884728889-dot/LIUYAN/releases/tag/v1.0.0
+
+- [full.pt](https://github.com/ly884728889-dot/LIUYAN/releases/download/v1.0.0/full.pt)
+- [selective_refine.pt](https://github.com/ly884728889-dot/LIUYAN/releases/download/v1.0.0/selective_refine.pt)
+- [direction_gate.pt](https://github.com/ly884728889-dot/LIUYAN/releases/download/v1.0.0/direction_gate.pt)
+
+All three assets were downloaded completely without authentication and matched their
+local SHA256 hashes. See `verification/public_upload.json` and
+`REPRODUCTION_VERIFICATION.json`. No credentials or dataset images are included.
 
 ```bash
 python predict.py --images /path/to/Benchmark/img --weights-dir weights --output outputs/submission

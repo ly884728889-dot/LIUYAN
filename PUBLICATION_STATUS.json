@@ -1,5 +1,9 @@
 {
-  "code_uploaded": false,
-  "weights_uploaded": false,
-  "reason": "Awaiting authenticated hosting destination; do not treat local files as public URLs."
+  "code_uploaded": true,
+  "weights_uploaded": true,
+  "repository": "https://github.com/ly884728889-dot/LIUYAN",
+  "release": "https://github.com/ly884728889-dot/LIUYAN/releases/tag/v1.0.0",
+  "verified_base_code_commit": "98040c1198d023ecad2091595eee6800b8d1baf6",
+  "anonymous_full_download_verified": true,
+  "weight_sha256_matches": true
 }

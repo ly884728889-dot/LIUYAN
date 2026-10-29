@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "time": "2026-10-29T19:15:00.700990",
+  "repository": "https://github.com/ly884728889-dot/LIUYAN",
+  "private": false,
+  "commit": "98040c1198d023ecad2091595eee6800b8d1baf6",
+  "release": "https://github.com/ly884728889-dot/LIUYAN/releases/tag/v1.0.0",
+  "assets": [
+    {
+      "name": "direction_gate.pt",
+      "url": "https://github.com/ly884728889-dot/LIUYAN/releases/download/v1.0.0/direction_gate.pt",
+      "bytes": 100026213,
+      "sha256": "5f1cd5524a8f105cc27ada4bbda03c0e58ddc550e82a9c673819b0784711b34b",
+      "anonymous_full_download": "PASS"
+    },
+    {
+      "name": "full.pt",
+      "url": "https://github.com/ly884728889-dot/LIUYAN/releases/download/v1.0.0/full.pt",
+      "bytes": 100025065,
+      "sha256": "184c7f1de0c06d6d0fdfc28fb402676faa9cb07cb5a79342a23cb4e0ef447635",
+      "anonymous_full_download": "PASS"
+    },
+    {
+      "name": "selective_refine.pt",
+      "url": "https://github.com/ly884728889-dot/LIUYAN/releases/download/v1.0.0/selective_refine.pt",
+      "bytes": 100041181,
+      "sha256": "f64684d8a27da16bb2892cebfa0f8ce3067b8246a31fef4222573e5fa7f1868c",
+      "anonymous_full_download": "PASS"
+    }
+  ],
+  "anonymous_code_readback": {
+    "README.md": "4311ff3fd93c2daf8ed2c6e435885f2d7c7206297436147c99a306893d61ae2d",
+    "predict.py": "428255fb580174627ef2c3ef103c2d6e0fe56289d8ad725095f15713c3febfb4",
+    "train.py": "95d31aa40fc5c336b9aadc0917af076e9ae853c43221a71942f4632a932d6575",
+    "soclr/models.py": "b9f26da73dcd47a0320df6781a9ceac340a5c9d0799418e6ff6b7713cf9ea9dd",
+    "soclr/inference.py": "1fdc87e88cd49d6443511108c97e54115a96b7319ae8aeaccd5c37db6c70b254",
+    "configs/final.json": "40f15de6192fd5417e38ec29b3d158c09fce00d13c8be3ec9597d603726aa007",
+    "REPRODUCTION_VERIFICATION.json": "567ae4f37cb6d6cd456fffb8b6dc338351378eb75ce4017e0e35ecea92ebb5e1"
+  },
+  "verification": "No credentials used for verification; all three complete public downloads match local SHA256"
+}
